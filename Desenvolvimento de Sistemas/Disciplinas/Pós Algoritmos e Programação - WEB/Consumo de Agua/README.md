@@ -14,7 +14,7 @@ Desperdício de água durante o banho é um problema comum que afeta muitas comu
 *	Leia o tempo de banho em minutos;
 *	Calcule a quantidade de água gasta;
 *	Classifique o uso como ótimo, razoável, excessivo ou crítico;
-*	Ofereça uma dica ambiental com base na classificação.
+*	O resultado deve mostrar o consumo de água e uma análise do uso.
 
 ### Lógica usada:
 
