@@ -1,4 +1,4 @@
-# Mini Aplicação Web 
+# Mini Aplicação Web
 
 ## Páginas
 - **Login (/login)**: acesso livre; campos de usuário e senha.
@@ -33,3 +33,41 @@
 - Mecanismos contra injeção, CSRF, controle de acesso, sessões, erros.
 - Hashes de senhas armazenados.
 
+
+
+
+## Instalação
+
+1. Clone o repositório para sua máquina local:
+    ```bash
+    git clone <URL_DO_REPOSITORIO> 
+    ```    
+2. Crie um ambiente virtual de acordo com seu Sistema Operacional (opcional, mas recomendado):
+    ```bash
+    python -m venv venv
+    ```
+3. Ative o ambiente virtual:
+    ```bash 
+    # Para Windows
+    venv\Scripts\activate
+    
+    # Para Linux/Mac
+    source venv/bin/activate
+    ```
+
+3. Instale os pacotes necessários:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Como Iniciar
+
+1. Execute a aplicação:
+    ```bash
+    python app.py
+    ```
+
+2. Acesse a aplicação no navegador através do endereço:
+    ```bash
+    https://127.0.0.1:5000/login
+    ```
