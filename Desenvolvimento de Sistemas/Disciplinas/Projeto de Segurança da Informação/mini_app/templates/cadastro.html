@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2 class="mb-4">Cadastro de Usuário</h2>
+
+<form method="POST">
+
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+    <div class="mb-3">
+        <label>Usuário</label>
+        <input type="text" name="username" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label>Senha</label>
+        <input type="password" name="password" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label>Tipo de usuário</label>
+        <select name="role" class="form-control">
+            <option value="user">Usuário</option>
+            <option value="admin">Administrador</option>
+        </select>
+    </div>
+
+    <button class="btn btn-success">Cadastrar</button>
+
+</form>
+
+{% endblock %}
